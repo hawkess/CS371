@@ -1,0 +1,183 @@
+.blurb {
+    margin: 0 0;
+    padding: 7% 5%;
+}
+
+.btn-lg {
+    border: 0 none;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.card {
+    border: 0 none;
+}
+
+.card-text {
+    font-family: Lato;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.center-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #00356b;
+    height: 250px;
+    padding: 0 15%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.fas {
+    padding-left: 15px;
+}
+
+.link-title {
+    font-style: italic;
+}
+
+.links-col {
+    width: 50%;
+}
+
+.links-div {
+    height: 500px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #00356b;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 18px;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #286dc0;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    vertical-align: bottom;
+}
+
+.navbar-light .navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    color: #00356b;
+}
+
+.news-header {
+    margin: 0 0;
+    padding: 2% 0;
+    text-align: center;
+
+}
+
+.padded-container {
+    padding: 0 10%;    
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+.serif {
+    font-family: "Playfair Display", serif;
+}
+
+.yale-accent {
+    background-color: #286dc0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#blurb-header {
+    font-size: 3rem;
+    margin: 0 0;
+}
+
+#blurb-subtitle {
+    font-size: 2rem;
+}
+
+#footer-content {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-div {
+    margin: 50px 0;
+    padding: 0 0;
+    width: 100%;
+}
+
+#inset {
+    height: 250px;
+    width: 520px;
+    position: absolute;
+    left: 60px;
+    bottom: -60px;
+    margin: 0 0;
+}
+
+.navbar-collapse {
+    margin: 0 0;
+    padding: 30px 0 0 0;
+}
+
+#splash-cap {
+    margin-bottom: 70px;
+    position: relative;
+}
