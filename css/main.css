@@ -9,8 +9,7 @@
     padding: 10px 20px;
 }
 
-.cap
-{
+.cap {
     margin-top: 100px;
     margin-bottom: 0;
     padding: 0;
@@ -82,13 +81,13 @@
     padding: 0 20px;
 }
 
-.navbar-light .navbar-brand:hover {
-    color: #00356b;
+.navbar-collapse {
+    margin-left: 20%;
+    padding: 30px 0 0 0;
 }
 
-.navbar-nav .nav-item {
-    padding-left: 18px;
-    padding-right: 0;
+.navbar-light .navbar-brand:hover {
+    color: #00356b;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -104,15 +103,19 @@
     color: #00356b;
 }
 
+.navbar-nav .nav-item {
+    padding-left: 18px;
+    padding-right: 0;
+}
+
 .news-header {
     margin: 0 0;
     padding: 2% 0;
     text-align: center;
-
 }
 
 .padded-container {
-    padding: 0 10%;    
+    padding: 0 10%;
 }
 
 .row {
@@ -126,11 +129,6 @@
 
 .serif {
     font-family: "Playfair Display", serif;
-}
-
-.split-image {
-    margin: 0;
-    padding: 0;
 }
 
 .top-links {
@@ -161,8 +159,7 @@ h3 {
     font-family: "Playfair Display", serif;
 }
 
-img
-{
+img {
     object-fit: cover;
 }
 
@@ -181,7 +178,6 @@ ul {
 
 #footer-div {
     margin: 50px 0;
-    padding: 0 0;
     width: 100%;
 }
 
@@ -194,12 +190,31 @@ ul {
     margin: 0 0;
 }
 
-.navbar-collapse {
-    margin-left: 25%;
-    padding: 30px 0 0 0;
-}
 
 #splash-cap {
     margin-bottom: 70px;
     position: relative;
 }
+
+@media only screen and (max-width: 1200px) {
+    .navbar-collapse {
+        margin-left: 10%;
+        padding: 30px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+   #inset {
+        width: 100%;
+       height: auto;
+        position: relative;
+        margin-top: 70px;
+        left: 0;
+        bottom: 0;
+       padding: 20px;
+    }
+}
+
+
+ 
+
