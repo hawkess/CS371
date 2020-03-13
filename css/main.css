@@ -20,7 +20,9 @@
 }
 
 .sans-serif {
-    font-family: Lato;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
 }
 
 .card-img-top {
@@ -208,7 +210,7 @@ ul {
         width: 100%;
        height: auto;
         position: relative;
-        margin-top: 70px;
+        margin-top: 0px;
         left: 0;
         bottom: 0;
        padding: 20px;
