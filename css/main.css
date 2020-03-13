@@ -9,11 +9,18 @@
     padding: 10px 20px;
 }
 
+.cap
+{
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 .card {
     border: 0 none;
 }
 
-.card-text {
+.sans-serif {
     font-family: Lato;
 }
 
@@ -34,14 +41,17 @@
 }
 
 .footer {
-    background-color: #00356b;
-    height: 250px;
     padding: 0 15%;
 }
 
 .footer-links {
     display: flex;
     flex-direction: row;
+}
+
+.image-div {
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .italics {
@@ -56,6 +66,10 @@
     font-style: italic;
 }
 
+.link-space {
+    padding-bottom: 18px;
+}
+
 .links-col {
     width: 50%;
 }
@@ -65,7 +79,7 @@
 }
 
 .navbar-brand {
-    padding: 0;
+    padding: 0 20px;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -105,12 +119,32 @@
     margin-bottom: 25px;
 }
 
+.scrollable {
+    overflow-y: auto;
+    max-height: 1000px;
+}
+
 .serif {
     font-family: "Playfair Display", serif;
 }
 
+.split-image {
+    margin: 0;
+    padding: 0;
+}
+
+.top-links {
+    font-size: 1.5rem;
+    padding: 100px 10%;
+    text-align: right;
+}
+
 .yale-accent {
     background-color: #286dc0;
+}
+
+.yale-primary {
+    background-color: #00356b;
 }
 
 body {
@@ -127,20 +161,13 @@ h3 {
     font-family: "Playfair Display", serif;
 }
 
-html {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-img {
+img
+{
     object-fit: cover;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 #blurb-header {
@@ -150,11 +177,6 @@ ul {
 
 #blurb-subtitle {
     font-size: 2rem;
-}
-
-#footer-content {
-    margin: 0;
-    padding: 0;
 }
 
 #footer-div {
@@ -173,7 +195,7 @@ ul {
 }
 
 .navbar-collapse {
-    margin: 0 0;
+    margin-left: 25%;
     padding: 30px 0 0 0;
 }
 
