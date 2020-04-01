@@ -120,6 +120,12 @@
     padding: 0 10%;
 }
 
+.ref
+{
+    position: absolute;
+    top: -120px;
+}
+
 .row {
     margin-bottom: 25px;
 }
@@ -163,6 +169,10 @@ h3 {
 
 img {
     object-fit: cover;
+}
+
+section {
+    position: relative;
 }
 
 ul {
